@@ -6,8 +6,6 @@ __pycache__/
 venv/
 env/
 
-# Output files (generated, no need to track)
-output/
 
 # VS Code
 .vscode/

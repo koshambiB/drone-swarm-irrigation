@@ -8,8 +8,8 @@ import os
 GRID_SIZE    = 50          # 50×50 field
 NUM_HOTSPOTS = 6           # number of dry/stressed crop zones
 BASE_TEMP    = 28.0        # baseline field temperature (°C)
-HOTSPOT_PEAK = 18.0        # how much hotter a hotspot is above baseline
-SIGMA        = 4.0         # how wide the heat spreads (Gaussian radius)
+HOTSPOT_PEAK = 200.0        # how much hotter a hotspot is above baseline
+SIGMA        = 2.0         # how wide the heat spreads (Gaussian radius)
 RANDOM_SEED  = 42          # fixed seed so results are reproducible
 OUTPUT_DIR   = "output"    # folder where files are saved
 
